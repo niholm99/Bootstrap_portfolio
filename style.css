@@ -1,0 +1,40 @@
+
+
+#pic {
+	float: left;
+	margin: 10px 10px 10px 10px;
+}
+
+#about{
+	text-align: center;
+}
+
+.footer {
+	margin-top: 4px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: orange;
+    text-align: center;
+    background-image: url('images/wood.png');
+}
+
+.footer > .container2 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.card{
+	float: center;
+}
